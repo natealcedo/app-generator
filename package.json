@@ -1,0 +1,23 @@
+{
+  "name": "app-generator",
+  "version": "0.0.0",
+  "description": "A cli tool for bootstrapping applications",
+  "private": true,
+  "bin": {
+    "app-generator": "./bin/app-generator.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ndaljr/app-generator.git"
+  },
+  "scripts": {
+    "test": "npm test"
+  },
+  "author": "Nathaniel D. Alcedo Jr",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^2.3.1",
+    "commander": "^2.14.1",
+    "yeoman-environment": "^2.0.5"
+  }
+}
