@@ -20,7 +20,7 @@ const commands = {
 program
   .version(packageJson.version)
   .description("A small cli tool for generating a new code base")
-  .usage('[microservice or fullstack-app]')
+  .usage('[fullstack-app]')
   .action(() => {
     env.run("fullstack-app");
   });
